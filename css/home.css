@@ -28,7 +28,7 @@
   .wrapper .greeting {
     padding-left: 20px; }
   .wrapper #avatar {
-    background: url(/img/avatar.jpg);
+    background: url(../img/avatar.jpg);
       background-size: cover;
     margin: 0 10px;
     width: 100px;
@@ -129,7 +129,7 @@
 
 .body-slideshow:after {
   content: "";
-  background: transparent url(/img/slide/pattern.png) repeat top left; }
+  background: transparent url(../img/slide/pattern.png) repeat top left; }
 
 .body-slideshow li span {
   width: 100%;
@@ -177,10 +177,10 @@
     color: rgba(255, 255, 255, 0.8); }
 
 .body-slideshow li:nth-child(1) span {
-  background-image: url(/img/slide/6H.jpg); }
+  background-image: url(../img/slide/6H.jpg); }
 
 .body-slideshow li:nth-child(2) span {
-  background-image: url(/img/slide/picture-window-with-window-of-opportunity.jpg);
+  background-image: url(../img/slide/picture-window-with-window-of-opportunity.jpg);
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   -o-animation-delay: 8s;
@@ -188,7 +188,7 @@
   animation-delay: 8s; }
 
 .body-slideshow li:nth-child(3) span {
-  background-image: url(/img/slide/f535def5b7f7845ae613fc6a3655ea26.0.jpg);
+  background-image: url(../img/slide/f535def5b7f7845ae613fc6a3655ea26.0.jpg);
   -webkit-animation-delay: 16s;
   -moz-animation-delay: 16s;
   -o-animation-delay: 16s;
