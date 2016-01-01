@@ -1,5 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,300,700,100");
 /* Banner */
+.brand-logo {
+  padding: 0 15px !important; }
+
 .banner {
   position: fixed;
   top: 0;
@@ -56,9 +59,13 @@ section {
 /*font-size: 18px
  * font-weight: 400 */
 /* Footer */
-footer.page-footer {
+footer .page-footer {
   margin-top: 0 !important;
   padding-top: 40px !important; }
+footer li {
+  display: inline; }
+  footer li i {
+    padding-right: 5px; }
 
 /* Skill section
  * ---------------- */
@@ -115,8 +122,28 @@ div.container p.small-text {
  * ------------- */
 div.card.small {
   height: 227px; }
-  div.card.small .card-image {
-    background-image: url(../img/IMG-20150608-WA0004.jpg);
+  div.card.small .work-1 {
+    background-image: url(../img/work-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  div.card.small .work-2 {
+    background-image: url(../img/work-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  div.card.small .work-3 {
+    background-image: url(../img/work-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  div.card.small .work-4 {
+    background-image: url(../img/work-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  div.card.small .work-5 {
+    background-image: url(../img/work-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
