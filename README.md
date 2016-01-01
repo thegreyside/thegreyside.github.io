@@ -2,24 +2,26 @@
 
 This portfolio is built to replace my old wordpress site. It is my first attempt to built my own website after a long time effort of learning how to build one. I built this using [Materializecss](http://materializecss.com), [SASS](http://sass-lang.com), and [Jekyll](http://jekyllrb.com). Yeah, I opt the hardway :) but it's well worth the experience I gained.
 
-Why orange & grey? actually there are 3 colors here instead of 3 (orange, dark blue and grey). Well, I'm coming from construction & mining industry, they are the color of uniforms we used to wear in our daily activities.
+Why orange & grey? actually there are 3 colors here instead of 3 (orange, dark blue and grey). Well, I came from construction & mining industry, they are the color of uniforms we used to wear in our daily activities.
 
 Click here to [see the live demo in action](https://thegreyside.github.io). I set it as my homepage on Github.
 
 ## Features
 
-* It has a landing page with slide show in the background
+* It has a landing page with slide show in the background (all pictures thanks to https://gratisography.com)
 * Fully responsive
-* Materialize design, thanks to [Materializecss](http://materializecss.com)
+* [Materialize](http://materializecss.com) design
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 * Smooth scrolling
-* Using [Formspree](http://formspree.io) to submit the email (I'm not ready for the back-end yet, sorry)
-* Thanks to [DevTips YouTube channel](http://youtube.com/devtipsfordesigners) for inspiring me how to make those bullets in the Skill section.
+* [Formspree](http://formspree.io) to submit the email (I'm not ready for the back-end yet, sorry)
+* Thanks to [DevTips YouTube channel](http://youtube.com/devtipsfordesigners) for inspiring me how to make those dynamic bullets in the Skill section.
+
 
 ## TODO
 * I'd like to be able to change the color theme. Need to learn it first :) .
 * Create back-end to send email. PHP?
 * Auto resize the 1st card size in the Work section so all cards look nice in their container, the current state doesn't. I need to find it how in SASS.
+* Print to PDF
 
 ## How to install/use
 
@@ -38,9 +40,10 @@ As this is the first real effort I took after learning HTML, CSS, Js, so I wanna
 - [Bento](http://www.bento.io)
 - [Dash](http://dash.generalassemb.ly)
 - [W3Schools](http://w3schools.com)
+- [CSS Tricks](https://css-tricks.com)
 - [DevTips YouTube channel](http://youtube.com/devtipsfordesigners) for your awesome tutorial videos.
 - Github, [git-guide](http://rogerdudler.github.io/git-guide/) and [try-github](https://try.github.io)
-- and a lot of blogs on the internet that I can't mention them all.
+- and a lot of blogs out there that I can't mention them all.
 
 
 

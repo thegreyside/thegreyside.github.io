@@ -1,8 +1,11 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,300,700,100");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,300,700,100");
 /* Banner */
 .brand-logo {
   padding: 0 15px !important; }
 
+@media screen and (max-width: 400px) {
+  .brand-logo {
+    font-size: 20px !important; } }
 .banner {
   position: fixed;
   top: 0;

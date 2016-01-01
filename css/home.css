@@ -91,6 +91,9 @@
     padding-right: 10px; }
 
 @media screen and (max-width: 767px) {
+  .brand-logo {
+    font-size: 0.9em; }
+
   .wrapper {
     font-size: 0.8em;
     margin: 20px 0 0 0;
