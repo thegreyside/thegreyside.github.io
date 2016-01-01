@@ -16,7 +16,7 @@ Click here to [see the live demo in action](https://thegreyside.github.io).
 
 All you need to do is download it [here](https://github.com/thegreyside/thegreyside.github.io), click the "Download ZIP" button. Then extract to your hosting service.
 
-You need to edit 2 files to change the contents according to your needs, they are `index.html`, `resume/index.html`. 
+You have to edit 2 files to change the content according to your needs, they are `index.html`, `resume/index.html`. 
 
 **There is also the Jekyll/SASS version of this theme if you prefer that one, grab it [here](https://github.com/thegreyside/materializecss_online_resume_jekyll)**. With that you only need to edit the `resume.yml` and `settings.yml` to change the content. It's pretty straight forward.
 
