@@ -23,6 +23,9 @@
     display: inline-block;
     padding: 5px 10px; }
 
+/* This is for the main section of the page,
+ * All contents (except the footer) are arranged 
+ * in sections inside the main-content class. */
 /* Change base color & layout */
 html {
   font-family: "Open Sans", sans-serif !important; }
@@ -56,19 +59,25 @@ section {
     text-align: justify;
     font-weight: 200; }
 
+@media screen and (max-width: 600px) {
+  .summary .about {
+    text-align: left; }
+
+  .footer-copyright {
+    font-size: 0.7em; } }
 #more {
   text-align: justify; }
 
 /*font-size: 18px
  * font-weight: 400 */
 /* Footer */
-footer .page-footer {
+.page-footer {
   margin-top: 0 !important;
   padding-top: 40px !important; }
-footer li {
-  display: inline; }
-  footer li i {
-    padding-right: 5px; }
+  .page-footer li {
+    display: inline; }
+    .page-footer li i {
+      padding-right: 5px; }
 
 /* Skill section
  * ---------------- */
@@ -123,56 +132,53 @@ div.container p.small-text {
 /* -------------
  * Works section
  * ------------- */
-div.card.small {
-  height: 227px; }
-  div.card.small .work-1 {
+div.card.medium {
+  height: 350px; }
+  div.card.medium .work-1 {
     background-image: url(../img/work-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.card.small .work-2 {
+  div.card.medium .work-2 {
     background-image: url(../img/work-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.card.small .work-3 {
+  div.card.medium .work-3 {
     background-image: url(../img/work-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.card.small .work-4 {
+  div.card.medium .work-4 {
     background-image: url(../img/work-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.card.small .work-5 {
+  div.card.medium .work-5 {
     background-image: url(../img/work-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
-  div.card.small span.card-title.project {
+  div.card.medium span.card-title.project {
     font-size: 18px; }
 
 .card {
   overflow: hidden;
   cursor: pointer; }
   .card .card-content {
-    height: 77px !important;
-    padding: 10px 20px 10px 20px !important; }
-  .card p {
-    padding-left: 10px; }
-  .card i {
-    margin-left: 0 !important; }
+    height: 100px !important;
+    padding: 20px !important;
+    text-align: justify; }
   .card .title-overlay {
     font-size: 16px;
-    padding: 45px 20px 20px 20px;
+    padding: 100px 20px 20px 20px;
     line-height: 1.2;
     position: absolute;
     top: 100%;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    height: 150px;
+    height: 250px;
     background: rgba(255, 138, 101, 0.5); }
     .card .title-overlay .title-text {
       display: block;
