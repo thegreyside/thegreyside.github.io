@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,300,700,100");
 /* Banner */
-.brand-logo {
-  padding: 0 15px !important; }
+.brand-logo.site-title {
+  padding: 0 15px; }
 
 @media screen and (max-width: 400px) {
-  .brand-logo {
-    font-size: 20px !important; } }
+  .brand-logo.site-title {
+    font-size: 20px; } }
 .banner {
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@
  * in sections inside the main-content class. */
 /* Change base color & layout */
 html {
-  font-family: "Open Sans", sans-serif !important; }
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3, h4, h6 {
   padding-bottom: 30px;
@@ -54,7 +54,7 @@ section {
 
 .summary {
   border-radius: 3px;
-  padding: 10px 20px !important; }
+  padding: 10px 20px; }
   .summary .about {
     text-align: justify;
     font-weight: 200; }
@@ -71,12 +71,12 @@ section {
 /*font-size: 18px
  * font-weight: 400 */
 /* Footer */
-.page-footer {
-  margin-top: 0 !important;
-  padding-top: 40px !important; }
-  .page-footer li {
+.page-footer.no-margin {
+  margin-top: 0;
+  padding-top: 40px; }
+  .page-footer.no-margin li {
     display: inline; }
-    .page-footer li i {
+    .page-footer.no-margin li i {
       padding-right: 5px; }
 
 /* Skill section
@@ -123,7 +123,7 @@ section {
       background: rgba(213, 213, 213, 0.5); }
 
 div.container p.small-text {
-  font-size: 0.9em !important; }
+  font-size: 0.9em; }
 
 @media screen and (max-width: 360px) {
   .skill-type {
@@ -165,9 +165,9 @@ div.card.medium {
 .card {
   overflow: hidden;
   cursor: pointer; }
-  .card .card-content {
-    height: 100px !important;
-    padding: 20px !important;
+  .card .card-content.smaller {
+    height: 100px;
+    padding: 20px;
     text-align: justify; }
   .card .title-overlay {
     font-size: 16px;
@@ -201,17 +201,17 @@ div.card.medium {
 .input-field input[type=text]:focus + label,
 .input-field input[type=email]:focus + label,
 .input-field textarea.materialize-textarea:focus + label {
-  color: #ff8a65 !important; }
+  color: #ff8a65; }
 
 .input-field input[type=text]:focus,
 .input-field input[type=email]:focus,
 .input-field textarea.materialize-textarea:focus {
-  border-bottom: 1px solid #ff8a65 !important;
-  box-shadow: 0 1px 0 0 #ff8a65 !important; }
+  border-bottom: 1px solid #ff8a65;
+  box-shadow: 0 1px 0 0 #ff8a65; }
 
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #ff5722 !important; }
+  color: #ff5722; }
 
 @media screen and (max-width: 360px) {
   #contact .container {
